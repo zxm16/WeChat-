@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index", //主页面的样式 
+    "pages/logs/logs",
+    "pages/demo1/demo1", //想要快速添加文件只需将想添加的文件名填入到page/后面按Ctrl＋s保存即可自动生成文件                   
+    "pages/demo2/demo2"                        
+  ],
+  "window":{
+    "backgroundTextStyle":"dark", //状态栏的状态只能是明或者暗（light or dark）
+    "navigationBarBackgroundColor": "#ff00ff",//状态栏颜色
+    "navigationBarTitleText": "黑马二手商城",//状态栏主标题文本
+    "navigationBarTextStyle":"black",//状态栏主标题的字体颜色注意只能是白色或者是黑色的（white or dark）
+    "enablePullDownRefresh":true,//添加此配置是添加下拉进行全局刷新
+    "backgroundColor": "#ff00ff"//这个配置是用来给下拉刷新闪标的那片区域着色注意此颜色只能用16进置表示
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
