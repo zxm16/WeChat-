@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index", 
+    "pages/logs/logs",
+    "pages/demo2/demo2",
+    "pages/demo1/demo1",
+    "pages/imgs/imgs", 
+    "pages/mine/mine",
+    "pages/search/search"               
+                  
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTitleText": "黑马二手商城",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor": "#F5F5F5"
+
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/10.png", 
+      "selectedIconPath": "icon/11.png"  
+    },
+    {
+      "pagePath": "pages/imgs/imgs",
+      "text": "图片",
+      "iconPath": "icon/20.png", 
+      "selectedIconPath": "icon/21.png"  
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "icon/30.png", 
+      "selectedIconPath": "icon/31.png"  
+    },
+    {
+      "pagePath": "pages/search/search",//对应的跳转也页面
+      "text": "搜索",//跳转页面明名称
+      "iconPath": "icon/40.png", //没变色的图标
+      "selectedIconPath": "icon/41.png"  //变色后的图标
+    }//在tabBar中添加相应的标签
+  ],
+      "color": "#0094ff",//选中页面前图标下文本的颜色
+      "selectedColor": "ff9400",//选中页面后图标下文本的颜色
+      "backgroundColor": "#F5F5F5",//tabBar的颜色
+      "borderStyle": "black"//
+  },
+      "sitemapLocation": "sitemap.json"
+}
